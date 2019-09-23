@@ -5,3 +5,4 @@ def map_to_negativize(source_array)
       -n
     else n
 end
+end
