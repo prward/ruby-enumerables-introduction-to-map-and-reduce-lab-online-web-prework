@@ -1,4 +1,9 @@
 # My Code here....
 def map_to_negativize(source_array)
-  source_array.map do
-    
+    array.each do |x|
+   answer << if x > 0
+       x * -1
+   else
+       x 
+   end
+ end
