@@ -4,6 +4,7 @@ def map_to_negativize(source_array)
     if n > 0
       -n
     else n
+    end
       if -n < 0
         n
       else n
