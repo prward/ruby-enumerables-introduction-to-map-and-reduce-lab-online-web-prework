@@ -1,4 +1,4 @@
 # My Code here....
 def map_to_negativize(source_array)
-  map([source_array], -1)
+  [source_array].map 
 end
