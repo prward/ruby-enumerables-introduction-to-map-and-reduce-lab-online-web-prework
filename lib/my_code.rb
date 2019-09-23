@@ -1,5 +1,5 @@
 # My Code here....
-def map_to_negativize
+def map_to_negativize (source_array)
     array.map do |n|
       if n > 0 
     -n 
