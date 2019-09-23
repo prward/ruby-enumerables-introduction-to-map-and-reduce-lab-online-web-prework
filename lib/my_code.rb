@@ -1,6 +1,6 @@
 # My Code here....
 def map_to_negativize(source_array)
   source_array.map.with_index do |x, i|
-    (array[i+1].nil? || x > array[i+1]) ? x : x*-1
+    (source_array[i+1].nil? || x > array[i+1]) ? x : x*-1
   end
 end
